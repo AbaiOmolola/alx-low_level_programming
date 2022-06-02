@@ -4,7 +4,7 @@
 *
 * Return:  0 (Success)
 */
-int main ()
+const char()
 {
 	puts('\'Programming is like a multilingual puzzle');
 	return  0;
