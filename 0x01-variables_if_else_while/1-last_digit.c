@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Determine if last digit is greater than five, zero or less than six 
+ * main - Determine values
  *
  * Return: Always 0 (Success)
  */
@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d is %d is less than 6 and not 0\n", n, l);
+		printf("Last digit of %d is %d and less than 6 and not 0\n", n, l);
 	}
 	return (0);
 }
