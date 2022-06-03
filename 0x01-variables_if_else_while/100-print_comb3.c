@@ -26,3 +26,13 @@ int main(void)
 				{
 					break;
 				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+
+		}
+		e++;
+	putchar('\n');
+	return (0);
+}
