@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Print without 
+ * main - Print without e and c 
  *
  * Return: Always 0 (Success)
  */
