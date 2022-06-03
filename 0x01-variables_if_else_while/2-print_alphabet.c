@@ -17,5 +17,6 @@ int main(void)
 		putchar(alp[i]);
 	}
 	putchar('\');
+}
 	return (0);
 }
