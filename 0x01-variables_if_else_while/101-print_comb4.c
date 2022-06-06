@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Print comb
+ * main - Prints numbers between 012 to 789.
  *
  * Return: Always 0 (Success)
  */
