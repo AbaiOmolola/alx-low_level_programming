@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Print comb 
+ * main - Print comb
  *
  * Return: Always 0 (Success)
  */
