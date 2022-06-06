@@ -29,7 +29,6 @@ int main(void)
 					{
 						putchar(h);
 						putchar(g);
-						putchar(',');
 						putchar(' ');
 						putchar(e);
 						putchar(i);
