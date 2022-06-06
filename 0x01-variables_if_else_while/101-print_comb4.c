@@ -7,14 +7,15 @@
 *
 * Return: Always 0 (Success)
 */
-Int main(void)
+int main(void)
 {
         int i, e, g;
 
         i = 48;
         e = 48;
         g = 48;
-        While (e < 48)
+
+        While (e < 58)
         {
                 i = 48;
                 While (i < 58)
