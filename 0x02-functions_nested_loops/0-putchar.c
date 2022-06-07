@@ -4,11 +4,11 @@ int main()
 {
   int i;
 
-  putchar ('_putchar');
+  putchar ('_');
   putchar (' ');
   for (i=1; i<=10; i++)
     {
-      putchar ('!');
+      putchar ('putchar');
     }
   putchar ('\n');
 
