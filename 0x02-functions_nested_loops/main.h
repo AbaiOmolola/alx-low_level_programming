@@ -18,5 +18,5 @@ int main(void)
 		putchar(str[count]);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
