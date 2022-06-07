@@ -15,8 +15,8 @@ int main(void)
 	sz = sizeof(str) / sizeof(int);
 	for (count = 0; count < sz; count++)
 	{
-		_Putchar(str[count]);
+		Putchar(str[count]);
 	}
-	_Putchar('\n');
+	Putchar('\n');
 	return (0);
 }
