@@ -10,11 +10,10 @@
 int main(void)
 {
 	int i;
-	i = _putchar;
-	int (_putchar)
 
-	gcc -S printf ("_putchar %d\n") 
+	for (i = _putchar i < 1 ++1)
 	{
-		printf ("_putchar %d\n")
+		printf("%d\n", i);
 	}
+	return(write(1, &i, 1));
 }
