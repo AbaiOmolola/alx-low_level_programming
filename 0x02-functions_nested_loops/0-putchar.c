@@ -1,16 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include "main.h"
 
-/**
- * _putchar - Writed character c to stdout
- * @c: The character to print
- *
- * Return: On success 1
- * On error, -1 is returned, errno is set appropriately
- */
-int _Putchar(char c)
+int main()
 {
-	return (write(1, &c, 1));
+  int i;
+
+  putchar ('X');
+  putchar (' ');
+  for (i=1; i<=10; i++)
+    {
+      putchar ('!');
+    }
+  putchar ('\n');
+
+  return 0;
 }
