@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include <stdio.h>
+#include <time.h>
+
+/**
+ * main _ Putchar
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int str [] = {72, 11, 108, 98, 101, 114, 116, 111, 110};
