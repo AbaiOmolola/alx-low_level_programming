@@ -1,2 +1,6 @@
 #include <stdio.h>
-gcc -o _putchar _putchar.c _putchar.h
+int main(void)
+{
+	printf("_putchar\n");
+	return (0);
+}
