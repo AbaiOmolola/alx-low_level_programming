@@ -10,6 +10,6 @@
  */
 int _putchar(char c)
 {
-	 write(1, &c, i(&C));
+	 fwrite(1, &c, i(&c));
 	 return (0);
 }
