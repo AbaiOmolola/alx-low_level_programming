@@ -4,7 +4,7 @@ int main()
 {
   int i;
 
-  putchar ('X');
+  putchar ('_putchar');
   putchar (' ');
   for (i=1; i<=10; i++)
     {
