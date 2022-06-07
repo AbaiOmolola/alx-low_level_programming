@@ -13,6 +13,7 @@ int main(void)
 	i = _putchar;
 	int (_putchar)
 
+	gcc -S printf ("_putchar %d\n") 
 	{
 		printf ("_putchar %d\n")
 	}
