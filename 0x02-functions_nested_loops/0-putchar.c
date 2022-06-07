@@ -4,7 +4,7 @@
 /**
  * main -  Program prints _putchar
  *
- * Return: Always 0 (Success)
+ * Return: on success 1
  */
 int _putchar(char c)
 {
