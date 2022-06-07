@@ -1,6 +1,14 @@
 #include <stdio.h>
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	int str [] = {72, 11, 108, 98, 101, 114, 116, 111, 110};
+	int count, sz;
+
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count+)
+	{
+	_putchar(str[count])
+	}
+	_putchar('\n');
+	return(0);
 }
