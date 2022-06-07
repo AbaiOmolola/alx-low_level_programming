@@ -16,8 +16,8 @@ gcc -o _putchar.c _putchar.h
 	sz = sizeof(str) / sizeof(int);
 	for (count = 0; count < sz; count++)
 	{
-		Putchar(str[count]);
+		_Putchar(str[count]);
 	}
-	Putchar('\n');
+	_Putchar('\n');
 	return (0);
 }
