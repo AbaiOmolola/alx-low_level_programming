@@ -7,13 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-	int i;
-
-	for (i = _putchar i < 1 ++1)
-	{
-		printf("%d\n", i);
-	}
-	return(write(1, &i, 1));
+	return(write(1, &c, 1));
 }
