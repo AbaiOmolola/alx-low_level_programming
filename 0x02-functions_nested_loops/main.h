@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void _putchar(void)
 {
 	int str[] = {72, 11, 108, 98, 101, 114, 116, 111, 110};
 	int count, sz;
