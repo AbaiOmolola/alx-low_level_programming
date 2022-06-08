@@ -3,9 +3,7 @@
 
 int main()
 {
-
-  putchar (',');
-  putchar (' ');
+  printf("putchar");
   putchar ('\n');
 
   return 0;
