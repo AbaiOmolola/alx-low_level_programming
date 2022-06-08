@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * Print_alphabet - Prints the alphabets, in lowercase, followed by a new line
+ * print_alphabet - Prints the alphabets, in lowercase, followed by a new line
  *
  * Return: Always 0 (Success)
  */
-void Print_alphabet(void)
+void print_alphabet(void)
 {
 	char ch;
 
