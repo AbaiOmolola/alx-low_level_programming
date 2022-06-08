@@ -9,9 +9,6 @@
  */
 int main(void)
 {
-gcc -o _putchar.c _putchar.h
-}
-{
 	int str[] = {_putchar};
 	int count, sz;
 
