@@ -2,9 +2,9 @@
 
 /**
  * putchar - print _putchar
- * @c: The character that print
- *
+ * 
  * Return: Always 0(Success)
+ * On error, -1 is returned, errono is set appropriately
  */
 int main(void)
 {
