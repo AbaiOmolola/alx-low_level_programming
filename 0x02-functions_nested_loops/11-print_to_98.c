@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print _to_98 - print all natural number
- * @n: number input 
+ * print_to_98 - print all natural number
+ * @n: number input
  * Return: Always 0 (Success)
  */
 void print_to_98(int n)
