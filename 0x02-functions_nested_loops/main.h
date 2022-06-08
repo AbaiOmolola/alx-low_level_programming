@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int Main(void)
 {
 	int str[] = {97, 111, 108, 104, 114, 111, 101};
 	int count, sz;
