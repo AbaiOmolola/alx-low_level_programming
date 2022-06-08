@@ -2,10 +2,10 @@
 
 /**
  * putchar - print _putchar
- * main - prints 
+ * 
  * Return: Always 0(Success)
  */
-int main(void)
+void int main(void)
 {
 	printf("_putchar");
 	putchar('\n');
