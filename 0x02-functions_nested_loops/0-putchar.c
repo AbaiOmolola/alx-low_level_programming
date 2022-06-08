@@ -2,7 +2,7 @@
 
 int main()
 {
-  printf("putchar");
+  printf("_putchar");
   putchar ('\n');
 
   return 0;
