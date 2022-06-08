@@ -2,14 +2,9 @@
 
 int main()
 {
-  int i;
 
-  putchar ('X');
+  putchar ('putchar');
   putchar (' ');
-  for (i=1; i<=10; i++)
-    {
-      putchar ('!');
-    }
   putchar ('\n');
 
   return 0;
