@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - print positive or negative 
+ * print_sign - print positive or negative
  * @n: number input 
  * Return: Always 0 (Success)
  */
