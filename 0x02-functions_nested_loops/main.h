@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int str[] = {_putchar};
+	int str[] = {97, 111, 108, 104, 114, 111, 101};
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(int);
