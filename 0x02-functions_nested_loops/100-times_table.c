@@ -7,6 +7,14 @@
  */
 void print_times_table(int n)
 {
-
-	return (0);
+	if ( n > 15 )
+	{
+		_putchar(' ');
+		return (0);
+	}
+	else if (n < 0)
+		{
+			_putchar(' ');
+			return (0);
+		}
 }
