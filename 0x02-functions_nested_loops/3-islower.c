@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * int _islower(int c) -  return 1 if c is lowercase
+ * _islower -  return 1 if c is lowercase
  *
  * Return: Always 0 (Success)
  */
