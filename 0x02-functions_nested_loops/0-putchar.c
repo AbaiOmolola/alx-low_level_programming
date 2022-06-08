@@ -4,7 +4,6 @@
  * putchar - print _putchar
  * 
  * Return: Always 0(Success)
- * On error, -1 is returned, errono is set appropriately
  */
 int main(void)
 {
