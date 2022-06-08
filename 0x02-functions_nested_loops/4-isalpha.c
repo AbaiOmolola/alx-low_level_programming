@@ -2,11 +2,11 @@
 #include <ctype.h>
 
 /**
- * -isalpha - return 1 if c is lower or uppercase
+ * _isalpha - return 1 if c is lower or uppercase
  *  @c: singe letter output
  *  Return: Always 0 (Success)
  */
-int -isalpha(int c)
+int _isalpha(int c)
 {
 	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c >= 'Z')))
 		return (1);
