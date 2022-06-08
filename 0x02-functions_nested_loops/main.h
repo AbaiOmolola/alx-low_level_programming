@@ -12,7 +12,7 @@ int main(void)
 gcc -o _putchar.c _putchar.h
 }
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int str[] = {_putchar};
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(int);
