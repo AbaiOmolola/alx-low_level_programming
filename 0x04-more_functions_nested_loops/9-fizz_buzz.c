@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - prints the number fro 1 to 100
+ * main - prints the number from 1 to 100
  * 3 multiplies print Fizz instead of the number 
  * 5 multiplies print Buzz instead of the number
  * 3 & 5 multiplies print FizzBuzz instead
