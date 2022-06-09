@@ -5,7 +5,7 @@
  * @size: size of the square
  * Return: a square made of '#'
  */
-void print_square(int n)
+void print_square(int size)
 {
 	int a, b;
 
