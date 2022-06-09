@@ -2,7 +2,6 @@
 
 /**
  * main - test function that prints integer
- *
  * Return: 0
  */
 
