@@ -16,12 +16,12 @@ int main(void)
 	while (count < 98)
 	{
 		sum = fib1 + fib2;
-		printf("%.0Lf", sum);
+		printf("%.0f", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 98)
+		if (count == 97)
 			printf("\n");
 		else
 			printf(", ");
