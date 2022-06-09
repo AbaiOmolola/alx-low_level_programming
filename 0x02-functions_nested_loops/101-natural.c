@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - list all 
+ * main - list all
  *
  * Return: Always 0 (success)
  */
