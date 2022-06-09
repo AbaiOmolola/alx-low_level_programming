@@ -16,7 +16,7 @@ int main(void)
 	while (count < 98)
 	{
 		sum = fib1 + fib2;
-		printf("%.0f", sum);
+		printf("%.0Lf", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
