@@ -3,7 +3,7 @@
 
 /**
  * main - prints the number from 1 to 100
- * 3 multiplies print Fizz instead of the number 
+ * 3 multiplies print Fizz instead of the number
  * 5 multiplies print Buzz instead of the number
  * 3 & 5 multiplies print FizzBuzz instead
  * Return: Always 0 (Success)
