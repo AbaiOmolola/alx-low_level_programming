@@ -4,7 +4,7 @@
 /**
  * swap_int - swaps value of 2 integer
  * @a: second integer
- * @b: second integer
+ * @b: second integer to be swapped
  */
 void swap_int(int *a, int *b)
 {
