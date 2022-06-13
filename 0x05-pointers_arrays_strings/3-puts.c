@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * _puts - print string followed by a new line
  * @str: parameter
