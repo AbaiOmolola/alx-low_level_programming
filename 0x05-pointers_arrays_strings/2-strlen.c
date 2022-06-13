@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strlen - function that returnslength of string 
+ * _strlen - function that returnslength of string
  * @s: length of string
  * Return: length of string
  */
@@ -13,5 +13,5 @@ int _strlen(char *s)
 	for (c = 0; s[c] != 0; c++)
 	{
 	}
-	return(c);
+	return (c);
 }
