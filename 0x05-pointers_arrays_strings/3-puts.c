@@ -1,18 +1,17 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
+
 /**
  * _puts - print string followed by a new line
- * @str: parameter
+ * @str: string
  *
  * Return: Always 0
  */
 void _puts(char *str)
 {
+	int str;
+
 	while (*str)
-	{
 		_putchar(*str++);
-	}
 
 	_putchar('\n');
 }
