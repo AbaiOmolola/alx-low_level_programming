@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 
 /**
  * _puts - print string followed by a new line
@@ -9,8 +9,6 @@
  */
 void _puts(char *str)
 {
-	char str;
-
 	while (*str)
 		_putchar(*str++);
 
