@@ -6,7 +6,7 @@
  * @str: parameters
  * Return: Always 0
  */
-int _puts(char *str)
+void _puts(char *str)
 {
 	int c;
 
