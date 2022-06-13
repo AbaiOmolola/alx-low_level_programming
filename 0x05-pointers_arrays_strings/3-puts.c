@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdlib.h>
 
 /**
  * _puts - print string followed by a new line
