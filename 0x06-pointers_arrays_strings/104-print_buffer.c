@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_buferr - print a buffer 
- * @b: buffer 
+ * print_buferr - print a buffer
+ * @b: buffer
  * @size: size of buffer
  *
- * Return: ALways 0
+ * Return: Always 0
  */
 void print_buffer(char *b, int size)
 {
