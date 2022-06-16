@@ -25,7 +25,7 @@ void rev_string(char *n)
 	}
 }
 /**
- * infinite _add - add 2 numbers together
+ * infinite_add - add 2 numbers together
  * @n1: text representation of 1st number to add
  * @n2: text representation of 2nd number to add 
  * @r: pointer buffer 
@@ -56,12 +56,12 @@ char *infinte_add(char *n1, char *n2, char *r, int size_r)
 			val2 = 0;
 		else
 			val2 = *(n2 + j) - '0';
-		temp_tot = val1 + val2 +overflow;
+		temp_tot = val1 + val2 + overflow;
 		if (temp_tot >= 10)
 			overflow = 1;
 		else
 			overflow = 0;
-		if (digits >= (size_r -1))
+		if (digits >= (size_r - 1))
 			return (0);
 		*(r + digits) = (temp_tot % 10) + '0';
 		digits++;
