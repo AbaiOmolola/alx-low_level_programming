@@ -1,32 +1,24 @@
 #include "mainh"
-#include <stdio.h>
+#include <string.h>
 
 /**
  * _strspn - returns number of byte 
  * @s: for count action '
  * @accept: parameter for char
- * Return: number of bytes 
+ * Return: int from s
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int num;
-	int i, j, t;
+	unsigned int len = 0;
 
-	i = 0;
-	while (s[i] !='\0')
+	if ((s == NULL) || (accept == NULL))
+		return (len);
+
+	while (*s && strchr(accept, *s++))
 	{
-		t = 0;
-		for (j = 0; accept[j] != '\0'; j++)
-		{
-			if (s[i] == accept[j])
-				t = 1;
-		}
-		j = 0;
-		if (t == 0)
-			break;
-		num++;
-		i++;
+		len++;
 	}
-	return (i);
+
+	return (len);
 }
