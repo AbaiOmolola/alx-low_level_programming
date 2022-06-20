@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_memset - fills memeory with constant byte
- * @s: memory area
+ * _memset - fills memeory with constant byte
+ * @s: memoriy area
  * @b: constant byte
  * @n:bytes filled
- * Return: nothing
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
