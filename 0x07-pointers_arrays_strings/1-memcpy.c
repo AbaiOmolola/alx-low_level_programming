@@ -3,9 +3,9 @@
 
 /**
  * _memcpy - function that copies memory area
- * from memory area src to memory area des
+ * from memory area src to memory area dest
  * @src: memory area to copy from
- * @dest: memory area to copy to 
+ * @dest: memory area to copy to
  * @n: number of byte
  * Return: dest
  */
