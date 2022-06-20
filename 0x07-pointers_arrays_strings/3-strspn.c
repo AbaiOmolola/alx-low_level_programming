@@ -7,7 +7,6 @@
  * @accept: parameter for char
  * Return: int from s
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
