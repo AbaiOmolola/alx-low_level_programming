@@ -2,13 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strchr - locates a character in string 
- *
+ * _strchr - locates a character in string
  * @s: the string to check
- * @c: character we are loking for 
+ * @c: character we are loking for
  * Return: a pointer to th first occurence of the character @c in the string
  */
-
 char *_strchr(char *s, char c)
 {
 	int a;
