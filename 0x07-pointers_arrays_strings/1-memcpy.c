@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _memcpy - copies area 
+ * _memcpy - copies area
  *
- * @dest: where to copy memory to 
+ * @dest: where to copy memory to
  * @n: number of byte
  * @src: memory area to copy from
- * 
+ *
  * Return: Pointer to @dest
  */
 
