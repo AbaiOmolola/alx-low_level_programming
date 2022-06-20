@@ -7,8 +7,7 @@
  * @s: the string to check
  * @c: character we are loking for 
  *
- * Return: a pointer to th first occurence of the character @c in the string 
- * @s. Return NULL if the character isn't found
+ * Return: a pointer to th first occurence of the character @c in the string
  */
 
 char *_strchr(char *s, char c)
