@@ -1,7 +1,7 @@
 #include "main.h"
 
 int is_prime_number(int n);
-int is prime(int a, int b);
+int is_prime(int a, int b);
 
 /**
  * is_prime_number - detects if an input is a prime number
