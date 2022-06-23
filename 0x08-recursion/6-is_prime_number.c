@@ -20,7 +20,7 @@ int is_prime_number(int n)
  * is_prime - detects if an input number is prime number
  * @a: int type
  * @b: int type
- * Return: 1 if n is a prime number. o if n is not a prime number 
+ * Return: 1 if n is a prime number. o if n is not a prime number
  */
 int is_prime(int a, int b)
 {
