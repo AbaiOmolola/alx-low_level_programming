@@ -5,7 +5,7 @@
  * create_array - create an array of chars
  * and intializes it with specific char
  * @size: size of the array
- * @c: character to be initialized 
+ * @c: character to be initialized
  * Return: NULL if size = 0
  * pointer to the array, or NULL if fails
  */
