@@ -8,11 +8,11 @@
  * Return: NULL on failure 
  * if width or height is 0 or '-', return NULL
  */
-int *alloc_grid(int width, int  height)
+int **alloc_grid(int width, int  height)
 {
 	int **grid, x, y;
 
-	if (width < 1 || height  < 1)
+	if (width < 1 || height < 1)
 		return (NULL);
 	grid = malloc(sizeof(int *) * height);
 	if (!grid)
