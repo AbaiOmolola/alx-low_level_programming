@@ -26,5 +26,5 @@ char *_strdup(char *str)
 	for (x = 0; str[x]; x++)
 		ptr[x] = str[x];
 
-	retun (ptr);
+	return (ptr);
 }
