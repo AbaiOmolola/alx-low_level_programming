@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 
 int strncat_mod(char *dest, char *src, int i, int str_len);
 void mallocmem(char **newstr, char *str, int str_len);
