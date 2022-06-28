@@ -5,7 +5,7 @@
  * free_grid - frees a 2 dimensional grid 
  * Previously created  by your alloc_grid function
  * @grid: pointer
- * @height: integer 
+ * @height: integer
  * Return: Always 0, free memory
  */
 void free_grid(int **grid, int height)
