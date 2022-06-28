@@ -8,7 +8,7 @@ char **strtow(char *str);
 
 /**
  * strncat_mod - concatenates two string with n bytes from another string
- * @dest: destination string 
+ * @dest: destination string
  * @src: source string
  * @i: index of beginning char from source
  * @str_len: string length
@@ -73,7 +73,7 @@ int word_count(char *str, int str_len)
 /**
  * strtow - splits a string into words
  * @str: string
- * Return: pointer to an array of strings 
+ * Return: pointer to an array of strings
  * NULL if str == NULL or str == ""
  * NULL if function fails
  */
