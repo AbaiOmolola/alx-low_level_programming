@@ -18,7 +18,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
 {
 	int j;
 
-	for (j = 0; src[i] != ' ' && i < str_len; i++ j++)
+	for (j = 0; src[i] != ' ' && i < str_len; i++, j++)
 		dest[j] = src[i];
 	return (i);
 }
