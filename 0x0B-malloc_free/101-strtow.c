@@ -20,7 +20,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
 
 	for (j = 0; src[i] != ' ' && i < str_len; i++; j++)
 		dest[j] = src[i];
-			return (i);
+	return (i);
 }
 /**
  * mallocmem - allocates memory for output array and set NULL at a string end
@@ -76,7 +76,7 @@ int word_count(char *str, int str_len)
  * NULL if str == NULL or str == ""
  * NULL if function fails
  */
-char strtow(char *str)
+char **strtow(char *str)
 {
 	char **newstr;
 	int i = 0, j = 0, str_len = 0, words;
