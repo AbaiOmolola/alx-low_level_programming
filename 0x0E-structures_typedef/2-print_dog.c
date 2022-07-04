@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "dog.h"
-#definr NILL "(nil)"
+#define NILL "(nil)"
 /**
  * print_dog - prints content of struct dog
  *
