@@ -9,6 +9,7 @@ void print_all(const char * const format, ...)
 {
 	va_list omolola;
 	unsigned int a = 0, b, c = 0;
+	char *kng;
 	const char t_arg[] = "cifs";
 
 	va_start(omolola, format);
