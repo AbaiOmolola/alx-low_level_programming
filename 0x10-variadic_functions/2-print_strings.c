@@ -9,10 +9,11 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
+	
 	va_list omolola;
 	unsigned int x;
 	char *kng;
-	
+
 	va_start(omolola, n);
 	for (x = 0; x < n; x++)
 	{
