@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 			printf("%f", va_arg(omolola, double)), c = 1;
 			break;
 		case 's':
-			kng = va_arg(omolola, char *) , c = 1;
+			kng = va_arg(omolola, char *), c = 1;
 			if (!kng)
 			{
 				print("(nil)");
