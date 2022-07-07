@@ -39,7 +39,7 @@ void print_all(const char * const format, ...)
 			kng = va_arg(omolola, char *), c = 1;
 			if (!kng)
 			{
-				print("(nil)");
+				printf("(nil)");
 				break;
 			}
 			printf("%s", kng);
