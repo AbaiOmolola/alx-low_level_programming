@@ -19,6 +19,6 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (x = 0; x < n; x++)
 		add += va_arg(omolola, int);
-	va_end(kampala);
+	va_end(omolola);
 	return (add);
 }
