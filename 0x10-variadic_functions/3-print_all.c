@@ -27,7 +27,7 @@ void print_all(const char * const format, ...)
 		switch (format[a])
 		{
 		case 'c':
-			printf("%c", va_arg(molola, int)), c = 1;
+			printf("%c", va_arg(omolola, int)), c = 1;
 			break;
 		case 'i':
 			printf("%d", va_arg(omolola, int)), c = 1;
