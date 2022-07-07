@@ -13,7 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int x;
 	char *kng;
 
-	va_start(kampala, n);
+	va_start(omolola, n);
 	for (x = 0; x < n; x++)
 	{
 		kng = va_arg(omolola, char *);
