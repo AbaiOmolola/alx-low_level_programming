@@ -7,7 +7,7 @@
  * @index: index of the node, starting at 0
  * Return: the nth node, or NULL if the node doesnt exist
  */
-listint_t *get_nodeint_at_index(listint_t * head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	listint_t *tail = head;
 	unsigned int x;
