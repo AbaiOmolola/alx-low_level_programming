@@ -3,7 +3,7 @@
 /**
  * sum_listint - returns the sum of all the data
  * @head: pointer to head of list
- * Return: the sum of all data 
+ * Return: the sum of all data
  */
 int sum_listint(listint_t *head)
 {
