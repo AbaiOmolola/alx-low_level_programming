@@ -6,6 +6,7 @@
  * index start at 0
  * @head: pointer to head of list
  * @n: new node integer
+ * @idx: parameter
  * Return: address of the new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
