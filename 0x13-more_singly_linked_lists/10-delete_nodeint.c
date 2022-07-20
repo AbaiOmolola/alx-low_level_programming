@@ -5,6 +5,7 @@
  * (index) of a listint_t linked list
  * @index: index of the node that should be deleted
  * index starts 0
+ * @head: pointer to head of list
  * Return: 1 if it succeeded, -1 if it failed
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
